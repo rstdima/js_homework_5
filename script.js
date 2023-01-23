@@ -57,3 +57,22 @@ console.log(`Сумма массива равна ${sum}`)
 
 let minNumbers = Math.min.apply(null, generatedNumbers);
 console.log(`Минимальное значение массива ${minNumbers}`);
+
+// Необходимо вывести горку в консоль (используя цикл for), как показано на
+// рисунке, только у вашей горки должно быть 20 рядов, а не 5:
+
+// x
+// xx
+// xxx
+// xxxx
+// xxxxx
+
+let stars = '*';
+let results = '';
+
+for (let i = 0; i <= 20; i++) {
+   
+   results += stars;
+
+   console.log(results);
+}
